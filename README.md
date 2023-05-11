@@ -1,3 +1,3 @@
 # AutonomousDrvr
 
-Reinforcement Learning for Autonomous Driving
+Reinforcement Learning with Deep Q Learning for Autonomous Vehicle.

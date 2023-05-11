@@ -1,1 +1,1 @@
-python main.py -pc config/env.json
+python main.py -ec config/env_config.json -ac config/agent_config.json

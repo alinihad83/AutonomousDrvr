@@ -1,0 +1,7 @@
+{
+    "gamma": 0.9,
+    "input_size": 35,
+    "layer_1_size": 256,
+    "output_size": 5,
+    "lr": 0.01
+}

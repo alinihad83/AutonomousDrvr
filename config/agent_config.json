@@ -1,7 +1,10 @@
 {
-    "gamma": 0.9,
-    "input_size": 35,
-    "layer_1_size": 256,
+    "gamma": 0.99,
+    "input_size": 70,
+    "layer_1_size": 512,
+    "layer_2_size": 256,
     "output_size": 5,
-    "lr": 0.01
+    "lr": 0.01,
+    "epsilon": 100,
+    "rand_range": 200
 }

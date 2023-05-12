@@ -1,2 +1,4 @@
 gymnasium==0.28.1
+torch==2.0.1
 matplotlib==3.7.1
+--user git+https://github.com/eleurent/rl-agents

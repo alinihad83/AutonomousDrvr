@@ -24,10 +24,8 @@ class Agent:
         # exploration/exploitation trade-off
         if random.randint(0, kwargs['rand_range']) < self.epsilon:
             move = random.randint(0, 4)
-            print(f"random action: {move}")
         else:
             prediction = self.model(obs)
             move = torch.argmax(prediction).item()
-            print(f"predicted action: {move}")
 
         return move

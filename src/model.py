@@ -36,8 +36,10 @@ class Trainer:
     def train_step(self, obs, next_obs, reward, action):
         obs = obs.flatten()
         obs = torch.from_numpy(obs)
+        obs = torch.round(obs, decimals=1)
         next_obs = next_obs.flatten()
         next_obs = torch.from_numpy(next_obs)
+        next_obs = torch.round(next_obs, decimals=1)
 
         pred = self.model(obs)
         target = pred.clone()

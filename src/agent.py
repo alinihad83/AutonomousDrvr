@@ -17,8 +17,9 @@ class Agent:
     def get_action(self, obs, **kwargs):
         obs = obs.flatten()
         obs = torch.from_numpy(obs)
+        obs = torch.round(obs, decimals=1)
 
-        self.epsilon = 80 - self.iter
+        self.epsilon = 100 - self.iter
 
         # exploration/exploitation trade-off
         if random.randint(0, kwargs['rand_range']) < self.epsilon:

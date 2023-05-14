@@ -1,6 +1,6 @@
 # Reinforcement Learning with Deep Q Network for Autonomous Decision-Making Vehicle.
  
-This is a fun project with Reinforcement Learning to train a vehicle to make decisions automatically to drive on a highway.
+This is a fun project with Reinforcement Learning to train a vehicle to make decisions automatically to drive on a highway. Exploration and algorithm still naive.__
 Built with OpenAI Gym, Pytorch.
 
 ## Installation
